@@ -1,6 +1,3 @@
-Sure! Here's your README in GitHub-compatible README format (plain text with Markdown syntax):
-
-````
 # 🎵 CodeAlpha Music Player
 
 **CodeAlpha Music Player** is a web-based application that allows users to play and manage their favorite music tracks. Built with HTML, CSS, and JavaScript, this project offers a simple and intuitive interface for music playback.
