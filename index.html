@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Player</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+
+<body>
+  <div class="player-container">
+    <header>My Web Music Player</header>
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search music by title, artist or category..." />
+      <select id="category-filter" title="Filter by category">
+        <option value="all" selected>All Categories</option>
+      </select>
+    </div>
+    <div id="playlist"></div>
+    <div id="controls">
+      <button class="control-button" id="prev-btn" title="Previous">&#9664;&#9664;</button>
+      <button class="control-button" id="play-pause-btn" title="Play/Pause">&#9654;</button>
+      <button class="control-button" id="next-btn" title="Next">&#9654;&#9654;</button>
+      <div id="volume-control" title="Adjust Volume">
+        <svg height="24" width="24" fill="#ffaf7b" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M3 10v4h4l5 5V5L7 10H3z" />
+        </svg>
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" />
+      </div>
+    </div>
+    <input type="range" id="seek-bar" min="0" max="100" value="0" step="0.1" aria-label="Seek slider" />
+    <div id="time-container">
+      <span id="current-time">0:00</span>
+      <span id="duration">0:00</span>
+    </div>
+    <audio id="audio-player" preload="metadata"></audio>
+  </div>
+<script src="music.js"></script>
+</body>
+
+</html>
