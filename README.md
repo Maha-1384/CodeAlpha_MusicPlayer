@@ -64,5 +64,3 @@ Feel free to reach out!
 ---
 
 *Thank you for exploring the CodeAlpha Music Player project! Your feedback and suggestions are always welcome.*
-
-```
