@@ -36,7 +36,7 @@ The repository includes the following files:
 To run the music player locally:
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/Maha-1384/CodeAlpha_MusicPlayer.git
 ````
 
